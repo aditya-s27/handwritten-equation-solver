@@ -41,7 +41,7 @@ DISPLAY = [
     '0','1','2','3','4','5','6','7','8','9',
     '+', '-', '×', '÷', '=', 'x', '(', ')', '^'
 ]
-CNN_NUM_CLASSES = len(CLASSES)   # 19 — matches saved symbol_cnn_v2.pth
+CNN_NUM_CLASSES = len(CLASSES)  
 NUM_CLASSES     = CNN_NUM_CLASSES
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
